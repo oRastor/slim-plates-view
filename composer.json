@@ -1,0 +1,25 @@
+{
+    "name": "rastor/slim-plates-view",
+    "description": "Custom Slim Framework view for the Plates template engine",
+    "keywords": [
+        "slim", "plates",
+        "template", "templating",
+        "render", "renderer", "rendering"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orest Budzhak",
+            "email": "doom4eg@gmail.com",
+            "homepage": "http://rastor.name/"
+        }
+    ],
+    "require": {
+        "league/plates": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slim\\Views": "src/"
+        }
+    }
+}
